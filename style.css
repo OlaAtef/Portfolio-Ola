@@ -491,7 +491,7 @@ nav button#toggle-mode:hover{
     animation: english .6s;
 }
 .language-bar  .bar .to{
-    width: 30%;
+    width: 23%;
     animation: to .7s;
 }
 #about .tab-contents#education ul li span{
@@ -519,7 +519,7 @@ nav button#toggle-mode:hover{
         width: 0%;
     }
     100%{
-        width: 30%;
+        width: 23%;
     }
 }
 /* about section end */
@@ -748,7 +748,7 @@ footer .copy-right{
         justify-content: center;
     }
     #header{
-        background: url(/imgFolder/my_image.png) no-repeat;
+        background: url(./imgFolder/img3.jpg) no-repeat;
         background-size: cover;
         background-position:center ;
     }
@@ -803,6 +803,7 @@ footer .copy-right{
     }
     nav #close-menu:hover{
         font-size: 28px;
+        color: var(--second-color);
         rotate: 180deg;
     }
     nav button#toggle-mode{
