@@ -639,7 +639,7 @@ nav button#toggle-mode:hover{
 /* portfolio section end */
 /* contact section start */
 #contact {
-    height: 80vh;
+    height: 87vh;
 }
 #contact .row{
     display: flex;
@@ -771,7 +771,7 @@ footer .copy-right{
         justify-content: center;
         display: block;
         transition: .5s;
-        z-index: 2;
+        z-index: 3;
     }
     nav ul li{
         padding: 17px ;
