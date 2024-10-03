@@ -46,7 +46,7 @@ body{
 }
 .primary-span{
     color: var(--second-color);
-    font-size: 2.2rem;
+    font-size: 37px;
     font-weight: 600;
 }
 
@@ -86,7 +86,7 @@ nav{
     flex-wrap: wrap;
 }
 nav .logo{
-    font-size: 2.1rem;
+    font-size: 34px;
     letter-spacing: 1px;
     color: #fff;
     user-select: none;
@@ -156,7 +156,7 @@ nav .links{
     gap: 15px;
 }
 nav #toggle-mode{
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #fff;
     background-color: transparent;
     border: none;
@@ -184,7 +184,7 @@ nav #toggle-mode{
 nav #toggle-mode:hover{
     color: var(--second-color);
     background-color: var(--third-color);
-    box-shadow: 0 0 .4rem var(--second-color);
+    box-shadow: 0 0 15px var(--second-color);
 }
 #header .container .home-text {
     display: flex;
@@ -193,10 +193,10 @@ nav #toggle-mode:hover{
     height: 100vh;
 }
 #header .container .home-text h3{
-    font-size: 2rem;
+    font-size: 34px;
     color: #fff;
     letter-spacing: 1px;
-    margin:0 0 .5rem;
+    margin:0 0 8px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
 }
@@ -217,11 +217,11 @@ nav #toggle-mode:hover{
     font-size: 22px;
     letter-spacing: 1px;
     color: #fff;
-    margin-right: .3rem;
+    margin-right: 5px;
 }
 
 #header .container .home-text .movt h3{
-    font-size: 2rem;
+    font-size: 34px;
     font-weight: 700;
     position: relative;
     color: transparent;
@@ -284,9 +284,9 @@ nav #toggle-mode:hover{
     color: var(--second-color);
 }
 #header .container .home-text .btn-box{
-    margin-top: 1.7rem;
-    width: 340px;
-    height: 45px;
+    margin-top: 25px;
+    width: 390px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -307,20 +307,23 @@ nav #toggle-mode:hover{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 160px;
+    width: 170px;
     height: 100%;
     color: var(--third-color);
     background: var(--second-color);
     border: 2px solid var(--second-color);
     border-radius: 5px;
-    box-shadow:0 0 .7rem var(--second-color) ;
-    font-size: 1.1rem;
+    box-shadow:0 0 14px var(--second-color) ;
+    font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: .5s;
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
+#header .container .btn.cv{
+    width: 200px;
 }
 .btn:hover{
     color: var(--second-color);
@@ -851,7 +854,7 @@ nav #toggle-mode:hover{
 } 
 #contact .social-contact .btn.cv{
     margin-top: 35px;
-    width: 200px;
+    width: 240px;
     height: 53px;
 }
 
@@ -902,6 +905,17 @@ footer .copy-right a{
     #header .container .home-text .movt h3{
         font-size: 1.5rem;
     }
+    #header .container .home-text .btn-box{
+        width: 365px;
+        height: 45px;
+    }
+    .btn{
+        width: 160px;
+        font-size: 16px;
+    }
+    #header .container .btn.cv{
+        width: 185px;
+    }
     #about .tab-contents.active-tab h4{
         font-size: 19px;
         letter-spacing: .5px;
@@ -934,6 +948,11 @@ footer .copy-right a{
     }
     #contact .content .col-left .row {
         width: 450px;
+    }
+    #contact .social-contact .btn.cv {
+        width: 210px;
+        height: 45px;
+        font-size: 16px;
     }
 }
 @media only screen and (max-width:992px){
@@ -1004,13 +1023,6 @@ footer .copy-right a{
         right: 41px;
         cursor: pointer;
     } 
-    #header .container .home-text .btn-box{
-        margin-top: 1.4rem;
-        width: 310px;
-    }
-    .btn{
-        width: 145px;
-    }
     #header .container .home-text .social-icon{
         margin-top: 5rem;
         width: 190px;
@@ -1018,6 +1030,18 @@ footer .copy-right a{
     }
     #header .container .home-text .social-icon a{
         width: 35px;
+    }
+    #header .container .home-text .btn-box{
+        width: 310px;
+        height: 43px;
+    }
+    .btn{
+        width: 140px;
+        font-size: 14px;
+        letter-spacing: .5px;
+    }
+    #header .container .btn.cv{
+        width: 160px;
     }
     .sub-title{
         font-size: 40px;
@@ -1060,10 +1084,6 @@ footer .copy-right a{
         }
     #contact .social-icons-contact #icons-contact{
         font-size: 23px;
-    }
-    #contact .social-contact .btn.cv{
-        margin-top: 27px;
-        width: 160px;
     }
 }
 @media only screen and (max-width:650px){
@@ -1114,7 +1134,7 @@ footer .copy-right a{
         font-size: 1.1rem;
     }
     #header .container .home-text .info-box {
-        width: 250px;
+        width: 235px;
         text-align: center;
     }
     #header .container .home-text .info-box h4{
@@ -1125,18 +1145,20 @@ footer .copy-right a{
         font-size: 13.3px;
     }
     #header .container .home-text .btn-box{
-        margin-top: 1rem;
-        width: 250px;
+        width: 285px;
+        height: 40px;
     }
     .btn{
-        width: 120px;
-        height: 40px;
-        font-size: 13.7px;
+        width: 135px;
+        font-size: 13.5px;
+        letter-spacing: .3px;
         box-shadow:0 0 .4rem var(--second-color) ;
     }
     .btn:hover{
-        color: var(--second-color);
-        font-size: 14.5px;
+        font-size: 13.5px;
+    }
+    #header .container .btn.cv{
+        width: 140px;
     }
     #header .container .home-text .social-icon{
         width: 170px;
@@ -1170,17 +1192,18 @@ footer .copy-right a{
     }
     #about .row .about-image{
         display: block;
+        text-align: center;
         flex-basis: 100%;
-        margin: 1rem 0;
+        margin: 1rem auto;
     }
     #about .row .about-image img{
-        width: 100%;
+        width: 70%;
         border-radius: 50%;
         border: 2px solid var(--second-color);
         box-shadow: 0 0 1rem var(--second-color);
     }
     #about .row .about-text p{
-        font-size: 13.7px;
+        font-size: 13.4px;
         margin-top: 0;
     }
     #about .tab-contents.active-tab{
@@ -1213,9 +1236,9 @@ footer .copy-right a{
         letter-spacing: .5px;
     }
     #about .btn{
-        width: 140px;
+        width: 135px;
         height: 40px;
-        font-size: 13.2px;
+        font-size: 13px;
     }
     #services .services-list{
         grid-template-columns: repeat(1, 1fr);
@@ -1257,14 +1280,16 @@ footer .copy-right a{
         width: 160px;
     }
     #contact .social-icons-contact #icons-contact {
-        font-size: 21px;
+        font-size: 20px;
     }
     #contact .social-contact .btn.cv {
-        width: 140px;
-        height: 38px;
+        width: 160px;
+        height: 40px;
+        font-size: 13px;
+        letter-spacing: .5px;
     }
     footer .copy-right{
-        font-size: 14.1px;
+        font-size: 13.3px;
         letter-spacing: .5px;
     }
 }
