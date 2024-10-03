@@ -4,71 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio Ola..</title>
+    <link rel="icon" href="./imgFolder/my_image.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body data-mode="light">
     <!-- home section start  -->
     <header id="header">
-        <nav>
-            <h3 class="logo"> <span class="primary-span">O</span>la.<span class="primary-span">.</span> </h3>
-            <ul id="sidemenu">
-                <li><a href="#">home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" id="close-menu" onclick="closemenu()"></i>
-            </ul>
-                <button id="toggle-mode"> Light Mode</button>
-                <i class="fas fa-bars" id="menu-icon" onclick="openmenu()"></i>
-        </nav>
-        <section class="container" id="landing">
-            <div class="home-text" id="home">
-                <div class="text">
-                <h3>Hello! I'm <span class="primary-span">Ola</span><br>
-                    <span>And I'm</span><span class="primary-span"> Web Developer</span>
-                </h3>
-                <div class="info-box">
-                    <div class="email-info">
-                        <h4>Email:</h4>
-                        <span>Ola736492@gmail.com</span>
+        <div class="container">
+            <nav id="fixed-nav">
+                <div class="container">
+                    <div class="nav-bar">
+                    <a href="#" class="logo">  <span class="primary-span">O</span>la.<span class="primary-span">.</span>   </a>
+                    <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" id="close-menu" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="links">
+                    <button id="toggle-mode">    <i class="fa-solid fa-sun"></i>   </button>
+                    <i class="fas fa-bars" id="menu-icon"></i>
                     </div>
-                    <div class="phone-info">
-                        <h4>phone:</h4>
-                        <span>+201006960262</span>
                     </div>
                 </div>
-                <div class="btn-box">
-                    <a href="#about" class="btn">Learn More</a>
-                    <a href="/CV-OLA.pdf" download="CV-OLA" class="btn cv">Download CV </a>
-                </div>
-                <div class="social-icon">
-                    <a href="https://m.facebook.com/profile.php/?id=100056849457284" target="_blank" title="Facebook"><i class="fa-brands fa-facebook" id="icons"></i></a>
-                    <a href="https://wa.me/+201006960262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp" id="icons"></i></a>
-                    <a href="https://webogram.org/a/#2057934182" target="_blank" title="Telegram"><i class="fa-brands fa-telegram" id="icons"></i></a>
-                    <a href="https://github.com/OlaAtef" target="_blank" title="Github"><i class="fa-brands fa-github" id="icons"></i></a>
-                </div>
-            </div>
-            </div>
-            <div class="home-img">
+            </nav>
+            <section  class="home-text" id="home" id="landing">
                 <img src="./imgFolder/my_image.png" alt="my photo">
-            </div>
-        </section>
+                    <h3>Hello There! I'm <span class="primary-span">Ola</span><br></h3>
+                    <div class="movt"> <span>And I'm </span><h3 data-text="Frontend"> Frontend  </h3></div>
+                    <div class="info-box">
+                        <div class="email-info">
+                            <h4>Email:</h4>
+                            <a href="mailto:ola63959@gmail.com">ola63959@gmail.com</a>
+                        </div>
+                        <div class="phone-info">
+                            <h4>phone:</h4>
+                            <a href="tel:+201006960262"> +201006960262</a>
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <a href="#about" class="btn">Learn More</a>
+                        <a href="./imgFolder/CV-Ola.pdf" class="btn cv" download="CV-OLA">Download CV </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://m.facebook.com/profile.php/?id=100056849457284" target="_blank" title="Facebook"><i class="fa-brands fa-facebook" id="icons"></i></a>
+                        <a href="https://wa.me/+201006960262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp" id="icons"></i></a>
+                        <a href="https://web.telegram.org/a/#2057934182" target="_blank" title="Telegram"><i class="fa-brands fa-telegram" id="icons"></i></a>
+                        <a href="https://www.facebook.com/messages/t/100056849457284" target="_blank" title="Messenger"><i class="fa-brands fa-facebook-messenger" id="icons"></i></a>
+                    </div>
+            </section>
+    </div>
+    <a href="#">  <i class="fa-solid fa-arrow-up back-arrow"></i> </a>
     </header>
                 <!-- home section end  -->
                 <!-- about section start  -->
             <main>
                 <section id="about">
                     <div class="container">
+                        <div class="sub-title">
+                            <p >About </p> <span> My</span>
+                        </div>
                         <div class="row">
-                            <div class="about-img">
-                                <img src="./imgFolder/img2.jpg" alt="my photo">
-                            </div>
                             <div class="about-text">
-                                <h1 class="sub-title">About My</h1>
-                                <p>  My name is Ola, I'm 19 years old, I love programming very  much, and I have a passion for programming that drives me to learn more and delve deeper into programming languages, and this makes me very happy. I feel excited and enjoy when I start learning something new to improve my standards for the better.
-                                    Through my experience of more than a year, I have been able to create the front-ends for some websites, so I am actively seeking the opportunity to delve deeper into this field and expand my scope of learning and knowledge. and I remain committed to self improvement and creative problem-solving, I am also looking forward to learning more technologies, and improve my skills in web development in order to push myself to the farthest point possible in the web development field and to use that in building my future projects, and make useful things that everyone can use it, learn from it and be a role of change and may be create a new language, to be a real contributor to the development of my country's economy.</p>
+                                <p> My name is Ola, I'm 20 years old, Programming is my passion, I am ambitious and always set goals for me to motivate me to work hard in my position.
+                                    I feel excited and enjoy when I start learning something new to improve my standards for the better. so I am actively seeking the opportunity to delve deeper into this field and expand my scope of learning and knowledge. and I remain committed to self improvement and creative problem-solving, I am also looking forward to learning more technologies, and improve my skills in web development in order to push myself to the farthest point possible in the web development field and to use that in building my future projects, and make useful things that everyone can use it, learn from it and be a role of change and may be create a new language, to be a real contributor to the development of my country's economy.</p>
                                     <div class="tab-titles">
                                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                                         <p class="tab-links " onclick="opentab('language')">Languages</p>
@@ -78,30 +80,32 @@
                                         <div>
                                             <h4>Technical SKILLS</h4>
                                             <hr class="hr1">
-                                        <ul>
-                                            <li><img src="./imgFolder/html-icon.png" alt="c++ image">
-                                                <span>HTML5</span></li>
-                                            <li><img src="./imgFolder/css-icon.png" alt="c++ image">
-                                                    <span>CSS3</span></li>
-                                            <li><img src="./imgFolder/c++icon.png" alt="c++ image">
-                                                <span>C++</span></li>
-                                            <li><img src="./imgFolder/Sql-imgg.jpg" alt="SQL image">
-                                                <span>SQL</span></li>
-                                            <li><img src="./imgFolder/bootstrip-icon.png" alt="c++ image">
-                                                </i><span>BOOTSTRAP</span></li>
-                                            <li><img src="./imgFolder/js-icon.jpg" alt="Javascript image">
-                                            <span>Javascript</span></li>
-                                            <li><img src="./imgFolder/visual-basic-icon.webp" alt="Visual Basic image">
-                                                <span> visual Basic</span></li>
-                                            <li><img src="./imgFolder/office-microsoft.jpg" alt="Microsoft Office image">
-                                                <span> Microsoft office</span></li>
-                                        </ul>
+                                            <ul>
+                                                <li><img src="./imgFolder/html-icon.png" alt="HTML5 icon">
+                                                    <span>HTML5</span>
+                                                </li>
+                                                <li><img src="./imgFolder/css-icon.png" alt="CSS3 icon">
+                                                        <span>CSS3</span>
+                                                    </li>
+                                                    <li><img src="./imgFolder/js-icon.png" alt="Javascript icon">
+                                                    <span>Javascript</span>
+                                                </li>
+                                                    <li><img src="./imgFolder/bootstrip-icon.png" alt=" icon">
+                                                    <span>BOOTSTRAP</span>
+                                                </li>
+                                                <li><img src="./imgFolder/Sql-img.png" alt="SQL icon">
+                                                    <span>SQL</span>
+                                                </li>
+                                                <li><img src="./imgFolder/Git-image.png" alt="Microsoft Office icon">
+                                                    <span> Git</span>
+                                                </li>
+                                            </ul>
                                     </div>
                                     <div>
                                         <h4>PERSONAL SKILLS</h4>
                                         <hr class="hr2">
                                         <ul>
-                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Haveing High Communication Skills.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Having High Communication Skills.</span></li>
                                             <li> <i class="far fa-solid fa-check check-icon" ></i><span> Possessing creativity in work.</span></li>
                                             <li> <i class="far fa-solid fa-check check-icon" ></i><span> Having organizational and coordination skills.</span></li>
                                             <li> <i class="far fa-solid fa-check check-icon" ></i><span> Passionate about learning and training.</span></li>
@@ -125,7 +129,7 @@
                                         <div class="language-bar">
                                             <div class="info">
                                                 <p>English</p>
-                                                <p>39%</p>
+                                                <p>87%</p>
                                                 
                                             </div>
                                             <div class="bar">
@@ -135,7 +139,7 @@
                                         <div class="language-bar">
                                             <div class="info">
                                                 <p>Türkçe</p>
-                                                <p>23%</p>
+                                                <p>73%</p>
                                             </div>
                                             <div class="bar">
                                                 <span class="to" ></span>
@@ -146,47 +150,53 @@
                                     <div class="tab-contents" id="education">
                                         <ul>
                                             <li><span>from 2016 to 2019</span><br>Preparatory school</li>
-                                            <li><span>from 2019 to 2022</span><br>Technical high school</li>
-                                            <li><span>from 2022 to 2024</span><br>Industrial Technical Institute , affiliated with Technology College in Quesna, and I am studying in the final year at Computers Department .</li>
+                                            <li><span>from 2019 to 2022</span><br>Industrial secondary schools diploma</li>
+                                            <li><span>from 2022 to 2024</span><br>Industrial Technical Institute Computers Department.</li>
                                         </ul>
                                     </div>
                             </div>
+                            <div class="about-img">
+                                <img src="./imgFolder/my-img.jpg" alt="my photo">
+                            </div>
                         </div>
+                        <a href="#contact" class="btn">Contact Me Now</a>
                     </div>
                 </section> 
                 <!-- about section end  -->
                 <!-- services section start  -->
                 <section id="services">
                     <div class="container">
-                        <h1 class="sub-title">My Services</h1>
+                        <div class="sub-title">
+                            <span>My</span> <p >Services </p>
+                        </div>
                         <div class="services-list">
                             <div>
-                                <img src="./imgFolder/img-services14.jpg" alt="services img" class="services-img">
+                                <img src="./imgFolder/web-image.png" alt="services img" class="services-img">
                                 <h2>Web Design</h2>
                                 <p>I can create the design and layout of a website while taking into account your requirements and comments.</p>
                             </div>
                             <div>
-                                <img src="./imgFolder/img-services12.jpg" alt="services img" class="services-img">
+                                <img src="./imgFolder/Creative-image.png" alt="services img" class="services-img serv">
                                 <h2>Creative Design</h2>
                                 <p>I can edit Your current by adding a new content to make it much better.</p>
                             </div>
                             <div>
-                                <img src="./imgFolder/img-services11.jpg" alt="services img" class="services-img">
+                                <img src="./imgFolder/Responsive-img.png" alt="services img" class="services-img">
                                 <h2>Responsive Design</h2>
                                 <p>The website will be 100% responsive for all devices, Tablets and phones. </p>
                             </div>
                             <div>
-                                <img src="./imgFolder/img-services1.jpg" alt="services img" class="services-img">
+                                <img src="./imgFolder/cv-img.png" alt="services img" class="services-img serv">
+                                <h2>CV website</h2>
+                                <p> I can CV a website for you to looks better.</p>
+                            </div>
+                            <div>
+                                <img src="./imgFolder/idea-img.png" alt="services img" class="services-img ">
                                 <h2>Web Ideas</h2>
                                 <p>I could turn your ideas into a real projects with high quality.</p>
                             </div>
                             <div>
-                                <img src="./imgFolder/img-services2.jpg" alt="services img" class="services-img">
-                                <h2>Retouch</h2>
-                                <p> I can help you by redesign your current website to looks better.</p>
-                            </div>
-                            <div>
-                                <img src="./imgFolder/img-services7.jpg" alt="services img" class="services-img">
+                                <img src="./imgFolder/Support-img.png" alt="services img" class="services-img serv">
                                 <h2>Support</h2>
                                 <p> Support is available if you wanna make any changes for your website after dilvering it.</p>
                             </div>
@@ -197,7 +207,9 @@
                 <!-- portfolio section start  -->
                 <section id="portfolio">
                     <div class="container">
-                        <h1 class="sub-title">My Work</h1>
+                        <div class="sub-title">
+                            <span>My</span> <p >Work </p>
+                        </div>
                         <div class="work-list">
                             <div class="work">
                                 <img src="./imgFolder/login-pagee.png" alt="Portfolio image">
@@ -218,6 +230,13 @@
                                 <div class="layer">
                                     <h3>Türkiye Landing Page</h3>
                                     <a href="https://olaatef.github.io/Turkiye-page/#" target="_blank"> <span>Visit Site</span> <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="./imgFolder/typist-website.png" alt="Portfolio image">
+                                <div class="layer">
+                                    <h3>Typist Website</h3>
+                                    <a href="https://olaatef.github.io/Typist-site/" target="_blank"> <span>Visit Site</span> <i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <div class="work">
@@ -255,36 +274,44 @@
                 <!-- contact section start  -->
                 <section id="contact">
                     <div class="container">
-                        <div class="row">
-                            <div class="contact-left">
-                                <h1 class="sub-title">Contact My</h1>
-                                <p> <i class="fas fa-paper-plane icon-contact"></i> Ola736492@gmail.com</p>
-                                <p> <i class="fas fa-phone-square icon-contact"></i> +201006960262</p>
-                                <div class="social-icons-contact">
-                                    <a href="https://m.facebook.com/profile.php/?id=100056849457284" target="_blank"><i class="fa-brands fa-facebook" id="icons-contact"></i></a>
-                                    <a href="https://wa.me/+201006960262" target="_blank"><i class="fa-brands fa-whatsapp"  id="icons-contact"></i></a>
-                                    <a href="https://webogram.org/a/#2057934182" target="_blank"><i class="fa-brands fa-telegram"  id="icons-contact"></i></a>
-                                    <a href="https://github.com/OlaAtef" target="_blank"><i class="fa-brands fa-github" id="icons-contact"></i></a>
-                                </div>
-                                <a href="./imgFolder/CV-OLA.pdf" download="CV-OLA" class="btn cv">Download CV </a>
+                        <div class="sub-title">
+                            <p >Contact </p> <span> My</span>
+                        </div>
+                        <div class="content">
+                            <div class="col-right">
+                                <img src="./imgFolder/contact-img.png" alt="contact-img">
                             </div>
-                            <div class="contact-right">
-                                <form >
-                                    <input type="text" class="input"  placeholder="Your Name" required maxlength="30">
-                                    <input type="email" class="input"  placeholder="Your Email" required maxlength="25">
-                                    <input type="tel" class="input"  placeholder="Your number phone" required maxlength="15">
-                                    <textarea class="input" rows="10" placeholder=" Your Massage" required maxlength="500"></textarea>
-                                    <input type="submit" class="btn-contact" id="submit-inp" onclick="wrongSend();" value="Submit"></input>
-                                </form>
+                            <div class="col-left">
+                                <h3>Feel free to drop me a line at:</h3>
+                                <div class="row">
+                                    <div class="col">
+                                    <i class="fa-solid fa-phone con-icon"></i> 
+                                        <a href="tel:+201006960262"> +201006960262</a>
+                                    </div>
+                                    <div class="col">
+                                        <i class="fa-solid fa-envelope con-icon"></i>
+                                        <a href="mailto:ola63959@gmail.com">ola63959@gmail.com</a>
+                                    </div>
+                                </div>
+                                <h3>Find Me On Social Network:</h3>
+                                <div class="social-contact">
+                                    <div class="social-icons-contact">
+                                        <a href="https://m.facebook.com/profile.php/?id=100056849457284" target="_blank"><i class="fa-brands fa-facebook" id="icons-contact"></i></a>
+                                        <a href="https://wa.me/+201006960262" target="_blank"><i class="fa-brands fa-whatsapp"  id="icons-contact"></i></a>
+                                        <a href="https://web.telegram.org/a/#2057934182" target="_blank"><i class="fa-brands fa-telegram"  id="icons-contact"></i></a>
+                                        <a href="https://www.facebook.com/messages/t/100056849457284" target="_blank"><i class="fa-brands fa-facebook-messenger"  id="icons-contact"></i></a>
+                                    </div>
+                                    <a href="./imgFolder/CV-Ola.pdf" class="btn cv" download="CV-OLA">Download CV </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> 
                 <!-- contact section end  -->
             </main>
-                <footer>
-                    <p class="copy-right"> All Copyright &copy; Reserved</p>
-                </footer>
+        <footer>
+            <p class="copy-right"> Made by <a href="#">Ola</a> | Copyright &copy; Reserved</p>
+        </footer>
     <script src="script.js"></script>
 </body>
 </html>
