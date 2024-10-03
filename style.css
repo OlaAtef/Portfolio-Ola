@@ -192,9 +192,6 @@ nav #toggle-mode:hover{
     justify-content: center;
     height: 100vh;
 }
-#header .container .home-text img{
-    display: none;
-}
 #header .container .home-text h3{
     font-size: 2rem;
     color: #fff;
@@ -438,6 +435,9 @@ nav #toggle-mode:hover{
     display: flex;
     align-items: start;
     justify-content: space-between;
+}
+#about .row .about-image{
+    display: none;
 }
 .sub-title{
     font-size: 67px;
@@ -1100,14 +1100,7 @@ footer .copy-right a{
     #header .container .home-text{
         align-items: center;
     }
-    #header .container .home-text img{
-        display: block;
-        width: 110px;
-        border-radius: 50%;
-        border: 2px solid var(--second-color);
-        box-shadow: 0 0 .9rem var(--second-color);
-        margin-bottom: 1rem;
-    }
+    
     #header .container .home-text h3{
         font-size: 1.1rem;
     }
@@ -1138,7 +1131,7 @@ footer .copy-right a{
     .btn{
         width: 120px;
         height: 40px;
-        font-size: 14.5px;
+        font-size: 13.7px;
         box-shadow:0 0 .4rem var(--second-color) ;
     }
     .btn:hover{
@@ -1158,6 +1151,8 @@ footer .copy-right a{
     .back-arrow {
         font-size: .7rem;
         padding: .6rem .7rem;
+        bottom: 3%;
+        right: 2%;
     }
     .back-arrow:hover{
         transform: translateY(0);
@@ -1169,8 +1164,23 @@ footer .copy-right a{
     #about .btn{
         margin-left: 7px;
     }
+    #about .row{
+        display: block;
+        justify-content: center;
+    }
+    #about .row .about-image{
+        display: block;
+        flex-basis: 100%;
+        margin: 1rem 0;
+    }
+    #about .row .about-image img{
+        width: 100%;
+        border-radius: 50%;
+        border: 2px solid var(--second-color);
+        box-shadow: 0 0 1rem var(--second-color);
+    }
     #about .row .about-text p{
-        font-size: 14.1px;
+        font-size: 13.7px;
         margin-top: 0;
     }
     #about .tab-contents.active-tab{
@@ -1196,7 +1206,7 @@ footer .copy-right a{
     }
     #about .tab-contents.active-tab ul li .check-icon {
         font-size: .9rem;
-        margin-right: 2px;
+        margin-right: 7px;
     }
     #about .tab-contents ul li span {
         font-size: 12.6px;
@@ -1205,6 +1215,7 @@ footer .copy-right a{
     #about .btn{
         width: 140px;
         height: 40px;
+        font-size: 13.2px;
     }
     #services .services-list{
         grid-template-columns: repeat(1, 1fr);
@@ -1229,7 +1240,7 @@ footer .copy-right a{
         grid-gap: 10px;
     }
     #portfolio .work-list .work .layer h3{
-        font-size: 16px;
+        font-size: 15.5px;
         letter-spacing: .5px;
     }
     #portfolio .work-list .work .layer a{
@@ -1240,7 +1251,7 @@ footer .copy-right a{
     }
     #contact .content .col-left h3 ,
     #contact .content .col-left .row .col a{
-        font-size: 18px;
+        font-size: 17px;
     } 
     #contact .social-icons-contact {
         width: 160px;
@@ -1250,10 +1261,10 @@ footer .copy-right a{
     }
     #contact .social-contact .btn.cv {
         width: 140px;
-        height: 40px;
+        height: 38px;
     }
     footer .copy-right{
-        font-size: 15.3px;
+        font-size: 14.1px;
         letter-spacing: .5px;
     }
 }
