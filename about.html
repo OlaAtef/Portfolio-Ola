@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Ola..</title>
+    <link rel="icon" href="./imgFolder/my_image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-mode="light">
+    <nav id="fixed-nav">
+        <div class="container">
+            <div class="nav-bar">
+                <a href="index.html" class="logo">  <span class="primary-span">O</span>la.<span class="primary-span">.</span>   </a>
+                <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html"  class="active">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fas fa-times" id="close-menu" onclick="closemenu()"></i>
+            </ul>
+            <div class="links">
+                <a href="about2.html" id="chenage-lang"> Tr </a>
+            <button id="toggle-mode">    <i class="fa-solid fa-sun"></i>   </button>
+            <i class="fas fa-bars" id="menu-icon"></i>
+            </div>
+            </div>
+        </div>
+    </nav>
+                <section id="about">
+                    <div class="container">
+                        <div class="sub-title">
+                            <p >About </p> <span> My</span>
+                        </div>
+                        <div class="row">
+                            <div class="about-image">
+                                <img src="./imgFolder/my-img.jpg" alt="my photo">
+                            </div>
+                            <div class="about-text">
+                                <p> My name is Ola, I'm 20 years old, Programming is my passion, I am ambitious and always set goals for me to motivate me to work hard in my position.
+                                    I feel excited and enjoy when I start learning something new to improve my standards for the better. so I am actively seeking the opportunity to delve deeper into this field and expand my scope of learning and knowledge, also I am looking forward to learning more technologies, and improve my skills in web development in order to push myself to the outmost point possible in the web development field and to use that in building my future projects, and make useful things that everyone can use it, learn from it and be a role of change and may be create a new language, to be a real contributor to the development of my country's economy.</p>
+                                    <div class="tab-titles">
+                                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                        <p class="tab-links " onclick="opentab('language')">Languages</p>
+                                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                                    </div>
+                                    <div class="tab-contents active-tab" id="skills">
+                                        <div>
+                                            <h4>Technical SKILLS</h4>
+                                            <hr class="hr1">
+                                            <ul>
+                                                <li><img src="./imgFolder/html-icon.png" alt="HTML5 icon">
+                                                    <span>HTML5</span>
+                                                </li>
+                                                <li><img src="./imgFolder/css-icon.png" alt="CSS3 icon">
+                                                        <span>CSS3</span>
+                                                    </li>
+                                                    <li><img src="./imgFolder/js-icon.png" alt="Javascript icon">
+                                                    <span>Javascript</span>
+                                                </li>
+                                                    <li><img src="./imgFolder/bootstrip-icon.png" alt=" icon">
+                                                    <span>BOOTSTRAP</span>
+                                                </li>
+                                                <li><img src="./imgFolder/Sql-img.png" alt="SQL icon">
+                                                    <span>SQL</span>
+                                                </li>
+                                                <li><img src="./imgFolder/Git-image.png" alt="Microsoft Office icon">
+                                                    <span> Git</span>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <div>
+                                        <h4>PERSONAL SKILLS</h4>
+                                        <hr class="hr2">
+                                        <ul>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Having High Communication Skills.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Possessing creativity in work.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Having organizational and coordination skills.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Passionate about learning and training.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Ability to work as effective member in teamwork.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Ability to manage time.</span></li>
+                                            <li> <i class="far fa-solid fa-check check-icon" ></i><span> Ability to influence.</span></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="tab-contents" id="language">
+                                        <div class="language">
+                                        <div class="language-bar">
+                                            <div class="info">
+                                                <p>Arabic</p>
+                                                <p>99%</p>
+                                            </div>
+                                            <div class="bar">
+                                                <span class="arabic"></span>
+                                            </div>
+                                        </div>
+                                        <div class="language-bar">
+                                            <div class="info">
+                                                <p>English</p>
+                                                <p>67%</p>
+                                                
+                                            </div>
+                                            <div class="bar">
+                                                <span class="english" ></span>
+                                            </div>
+                                        </div>
+                                        <div class="language-bar">
+                                            <div class="info">
+                                                <p>Türkçe</p>
+                                                <p>53%</p>
+                                            </div>
+                                            <div class="bar">
+                                                <span class="to" ></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-contents" id="education">
+                                        <ul>
+                                            <li><span>from 2016 to 2019</span> </li>
+                                            <li> Preparatory school</li>
+                                            <li><span>from 2019 to 2022</span></li>
+                                            <li> Industrial secondary schools diploma</li>
+                                            <li><span>from 2022 to 2024</span></li>
+                                            <li>Industrial Technical Institute Computers Department.</li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="about-img">
+                                <img src="./imgFolder/my-img.jpg" alt="my photo">
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn">CONTACT ME NOW</a>
+                    </div>
+                </section> 
+                <!-- about section end  -->
+    <script src="script.js"></script>
+</body>
+</html>

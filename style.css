@@ -1,6 +1,6 @@
 :root{
     --first-color: #000000;
-    --second-color: #;
+    --second-color: #ff5e00;
     --third-color: #fff;
 }
 html{
@@ -51,7 +51,7 @@ body{
 }
 
 #header {
-    background: linear-gradient( rgba(0 , 0, 0, 0.7),rgba(0 , 0, 0, 0.3)) ,url(./imgFolder/bg-phone.jpg);
+    background: linear-gradient( rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.3)) ,url(./imgFolder/bg-phone.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
